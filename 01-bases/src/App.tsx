@@ -1,6 +1,7 @@
 import Counter from "./bases/Counter"
 import CounterBy from "./bases/CounterBy"
 import CounterEffect from "./bases/CounterEffect"
+import CounterReducerComponent from "./bases/CounterReducer"
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
       <Counter initialValue = {12} />
       <CounterBy/>
       <CounterEffect/>
+      <CounterReducerComponent/>
     </>
   )
 }
